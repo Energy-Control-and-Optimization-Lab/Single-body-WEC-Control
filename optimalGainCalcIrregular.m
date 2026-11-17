@@ -1,6 +1,10 @@
 % This script identifies the dynamics of the float in the respective wave 
 % conditions and determines the optimal proportional gain value for a 
-% reactive controller (for regular waves)
+% reactive controller 
+% The script tunes to irregular waves via a search algorithm to find the
+% pair that maximizes power for a given sea state
+
+% Based on code from:
 % https://github.com/WEC-Sim/WEC-Sim_Applications/blob/main/Controls/Reactive%20(PI)/optimalGainCalc.m
 
 close all; clear all; clc;

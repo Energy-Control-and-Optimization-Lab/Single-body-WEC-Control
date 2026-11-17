@@ -56,3 +56,6 @@ pto(1).location = [0 0 -12.5];
 %% PI Controller
 controller(1).PI.Kp = 114430.732683;
 controller(1).PI.Ki = -413154.308918;
+
+%% Force limiting
+F_sat = 4e5; % Newtons

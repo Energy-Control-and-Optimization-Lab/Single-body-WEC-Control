@@ -1,6 +1,4 @@
 %Example of user input MATLAB file for post processing
-% https://github.com/WEC-Sim/WEC-Sim_Applications/blob/main/Controls/Reactive%20(PI)/userDefinedFunctions.m
-
 close all
 
 %Plot waves
@@ -26,9 +24,9 @@ end
 
 % Plot controller power
 figure()
-plot(controllersOutput.time,controllersOutput.power(:,3)/1e3)
+plot(controllersOutput.time,controllersOutput.power(:,3))
 title('Controller Power')
-ylabel('Power (kW)')
+ylabel('Power (W)')
 xlabel('Time (s)')
 
 % Calculate average power for last 10 wave periods
@@ -42,7 +40,6 @@ dtime = diff(controllersOutput.time);
 energy = controllersOutput.power(1:end-1,3).*dtime;
 accEnergy = cumsum(energy);
 
-figure()
 plot(controllersOutput.time(1:end-1),accEnergy)
 title('Controller Energy')
 ylabel('Energy (W/sec)')

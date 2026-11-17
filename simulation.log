@@ -1,0 +1,82 @@
+WEC-Sim: An open-source code for simulating wave energy converters
+Version: 7.1.0
+
+Initializing the Simulation Class...
+	Case Dir: /home/nova/Documents/WEC/PI Control 
+[Warning: "waves.spectrumType" is not used for the "regular" and "regularCIC" wave types] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('waveClass/checkInputs', '/home/nova/Documents/WEC/WEC-Sim/source/objects/waveClass.m', 225)" style="font-weight:bold">waveClass/checkInputs</a> (<a href="matlab: opentoline('/home/nova/Documents/WEC/WEC-Sim/source/objects/waveClass.m',225,0)">line 225</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('initializeWecSim', '/home/nova/Documents/WEC/WEC-Sim/source/functions/initializeWecSim.m', 82)" style="font-weight:bold">initializeWecSim</a> (<a href="matlab: opentoline('/home/nova/Documents/WEC/WEC-Sim/source/functions/initializeWecSim.m',82,0)">line 82</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run', '/usr/local/MATLAB/R2025b/toolbox/matlab/lang/run.m', 112)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2025b/toolbox/matlab/lang/run.m',112,0)">line 112</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('wecSim', '/home/nova/Documents/WEC/WEC-Sim/source/wecSim.m', 39)" style="font-weight:bold">wecSim</a> (<a href="matlab: opentoline('/home/nova/Documents/WEC/WEC-Sim/source/wecSim.m',39,0)">line 39</a>)] 
+
+WEC-Sim Pre-processing ...   
+Elapsed time is 1.182015 seconds.
+
+WEC-Sim Simulation Settings:
+	Start Time                     (sec) = 0
+	End Time                       (sec) = 200
+	Time Step Size                 (sec) = 0.01
+	Ramp Function Time             (sec) = 30
+	 Number of Time Steps     = 20000 
+
+Wave Environment: 
+	Wave Type                            = Regular Waves (Constant Hydrodynamic Coefficients)
+	Wave Height, height (m)                   = 0.8222
+	Wave Period, period (sec)                 = 6
+
+List of Body:
+ 
+Number of Hydro Bodies = 1 
+
+	***** Body Number 1, Name: ellipsoid *****
+	Body CG                          (m) = [0,0,-2]
+	Body Mass                       (kg) = 133376 
+	Body Moments of Inertia       (kgm2) = [1.37526E+06,1.37526E+06,1.34172E+06]
+	Body Products of Inertia      (kgm2) = [0,0,0]
+
+List of PTO(s): Number of PTOs = 1 
+
+	***** PTO Name: PTO1 *****
+	PTO Stiffness           (N/m;Nm/rad) = 0
+	PTO Damping           (Ns/m;Nsm/rad) = 0
+
+List of Constraint(s): No Constraint in the system
+
+[Warning: Model 'ellipsoid_PI' was created with a newer version (R2026a) of Simulink
+To create a model that is compatible with this version of Simulink, load the model in Simulink R2026a and select
+Save > Export Model to > Previous Version.] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('load_system>i_load_system', '/usr/local/MATLAB/R2025b/toolbox/simulink/slx/m/load_system.m', 44)" style="font-weight:bold">load_system>i_load_system</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2025b/toolbox/simulink/slx/m/load_system.m',44,0)">line 44</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('load_system', '/usr/local/MATLAB/R2025b/toolbox/simulink/slx/m/load_system.m', 20)" style="font-weight:bold">load_system</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2025b/toolbox/simulink/slx/m/load_system.m',20,0)">line 20</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('simulationClass/loadSimMechModel', '/home/nova/Documents/WEC/WEC-Sim/source/objects/simulationClass.m', 218)" style="font-weight:bold">simulationClass/loadSimMechModel</a> (<a href="matlab: opentoline('/home/nova/Documents/WEC/WEC-Sim/source/objects/simulationClass.m',218,0)">line 218</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('initializeWecSim', '/home/nova/Documents/WEC/WEC-Sim/source/functions/initializeWecSim.m', 544)" style="font-weight:bold">initializeWecSim</a> (<a href="matlab: opentoline('/home/nova/Documents/WEC/WEC-Sim/source/functions/initializeWecSim.m',544,0)">line 544</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run', '/usr/local/MATLAB/R2025b/toolbox/matlab/lang/run.m', 112)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2025b/toolbox/matlab/lang/run.m',112,0)">line 112</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('wecSim', '/home/nova/Documents/WEC/WEC-Sim/source/wecSim.m', 39)" style="font-weight:bold">wecSim</a> (<a href="matlab: opentoline('/home/nova/Documents/WEC/WEC-Sim/source/wecSim.m',39,0)">line 39</a>)] 
+[Warning: ellipsoid_PI (blockdiagram.xml, line 23): Unable to find object with the specified ObjectID.] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('load_system>i_load_system', '/usr/local/MATLAB/R2025b/toolbox/simulink/slx/m/load_system.m', 44)" style="font-weight:bold">load_system>i_load_system</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2025b/toolbox/simulink/slx/m/load_system.m',44,0)">line 44</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('load_system', '/usr/local/MATLAB/R2025b/toolbox/simulink/slx/m/load_system.m', 20)" style="font-weight:bold">load_system</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2025b/toolbox/simulink/slx/m/load_system.m',20,0)">line 20</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('simulationClass/loadSimMechModel', '/home/nova/Documents/WEC/WEC-Sim/source/objects/simulationClass.m', 218)" style="font-weight:bold">simulationClass/loadSimMechModel</a> (<a href="matlab: opentoline('/home/nova/Documents/WEC/WEC-Sim/source/objects/simulationClass.m',218,0)">line 218</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('initializeWecSim', '/home/nova/Documents/WEC/WEC-Sim/source/functions/initializeWecSim.m', 544)" style="font-weight:bold">initializeWecSim</a> (<a href="matlab: opentoline('/home/nova/Documents/WEC/WEC-Sim/source/functions/initializeWecSim.m',544,0)">line 544</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run', '/usr/local/MATLAB/R2025b/toolbox/matlab/lang/run.m', 112)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2025b/toolbox/matlab/lang/run.m',112,0)">line 112</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('wecSim', '/home/nova/Documents/WEC/WEC-Sim/source/wecSim.m', 39)" style="font-weight:bold">wecSim</a> (<a href="matlab: opentoline('/home/nova/Documents/WEC/WEC-Sim/source/wecSim.m',39,0)">line 39</a>)] 
+[Warning: ellipsoid_PI (blockdiagram.xml, line 32): Unable to find object with the specified ObjectID.] 
+[> In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('load_system>i_load_system', '/usr/local/MATLAB/R2025b/toolbox/simulink/slx/m/load_system.m', 44)" style="font-weight:bold">load_system>i_load_system</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2025b/toolbox/simulink/slx/m/load_system.m',44,0)">line 44</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('load_system', '/usr/local/MATLAB/R2025b/toolbox/simulink/slx/m/load_system.m', 20)" style="font-weight:bold">load_system</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2025b/toolbox/simulink/slx/m/load_system.m',20,0)">line 20</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('simulationClass/loadSimMechModel', '/home/nova/Documents/WEC/WEC-Sim/source/objects/simulationClass.m', 218)" style="font-weight:bold">simulationClass/loadSimMechModel</a> (<a href="matlab: opentoline('/home/nova/Documents/WEC/WEC-Sim/source/objects/simulationClass.m',218,0)">line 218</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('initializeWecSim', '/home/nova/Documents/WEC/WEC-Sim/source/functions/initializeWecSim.m', 544)" style="font-weight:bold">initializeWecSim</a> (<a href="matlab: opentoline('/home/nova/Documents/WEC/WEC-Sim/source/functions/initializeWecSim.m',544,0)">line 544</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run', '/usr/local/MATLAB/R2025b/toolbox/matlab/lang/run.m', 112)" style="font-weight:bold">run</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2025b/toolbox/matlab/lang/run.m',112,0)">line 112</a>)
+In <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('wecSim', '/home/nova/Documents/WEC/WEC-Sim/source/wecSim.m', 39)" style="font-weight:bold">wecSim</a> (<a href="matlab: opentoline('/home/nova/Documents/WEC/WEC-Sim/source/wecSim.m',39,0)">line 39</a>)] 
+[Warning: Cannot load version 'R2025a_20251111' of family 'slid'.] 
+[Warning: Cannot load version 'R2025b_202504071000' of family 'sltp_mm'.] 
+Elapsed time is 1.036201 seconds.
+
+Simulating the WEC device defined in the SimMechanics model /home/nova/Documents/WEC/PI Control/ellipsoid_PI.slx...   
+Elapsed time is 40.915046 seconds.
+
+Post-processing and saving...   
+Controller Power:
+
+ans =
+
+   2.7391e+04
+
+Elapsed time is 11.542254 seconds.

@@ -8,12 +8,14 @@ This repository contains a **WEC-Sim-based simulation framework** to evaluate an
 
 The simulation investigates the following control strategy:
 
-- **ST-SMC (Super Twisitng Sliding Mode Controller)**: A robust nonlinear controller designed to handle system uncertainties.
+- **PI Control**.
 
 
 ---
 
 ## 📁 Repository Structure
+
+FIX!
 
 ```
 .
